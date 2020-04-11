@@ -1,196 +1,99 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head><meta charset="UTF-8" />
-	<style id="webmakerstyle" type="text/css">.portfolio img {
-  width: 200px;
-  height: 100%;
-  object-fit: cover; }
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <title>Profile</title>
+    <style>
+      .cover {
+        background: url(img/top.png);
+        background-size: cover;
+      }
+    </style>
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
 
-.contact {
-  margin-bottom: 100px; }
-	</style>
 </head>
 <body>
-<p><br />
-<meta charset="UTF-8" />
-<style id="webmakerstyle" type="text/css">h2 {
-  padding-top: 10px; }
-</style>
-<br />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<style id="webmakerstyle" type="text/css">*{
-  box-sizing: border-box;
-}
-    
-body {
-  text-align:  center;  
-  background-color: #FFFAFA;
-}
-    
-.header img{
-  margin-top: 0px;
-  background-size: cover;
-  height: 300px;
-  width: 100%;
-  object-fit: cover; 
-}
-
-.header h1{
-  position: absolute;
-  color: white;
-  font-size: 40px;
-  padding-top:10px;
-  padding-left:20px;
-  }
-
-.profile img{
-  border-radius: 300px;
-  height:150px;
-  width: 150px;
-  margin-top: 40px;
-  margin-bottom: 0px;
-}
-
-.profile02 h1{
-  font-size:32px;
-  margin-bottom: 0px;
-}
-
-.profile02 h2{
-  font-size:18px;
-}
-
-    
-.btn-twitter{
-  background-color: #3399FF;
-  color: white;
-  padding: 5px;
-  text-decoration: none;
-  border-radius: 6px;
-  box-shadow: 0 3px black;
-}
-.btn-mail{
-   background-color: #008000;
-  color: white;
-  padding: 5px;
-  text-decoration: none;
-  border-radius: 6px; 
-  box-shadow: 0 3px black;
-}
-.other{
-  margin-bottom: 100px;
-}
-.other p{
-  margin-bottom:10px;
-}
-.btn-twitter:active{
-  box-shadow: none;
-  position: relative;
-  top: 3px;
-}
-.btn-mail:active{
-  box-shadow: none;
-  position: relative;
-  top: 3px;
-}
-@media(max-width: 670px){
-  .header h1{
-    font-size: 30px;
-  }
-  
-  .header img{
-    height:200px;
-    width: 100%;
-  }
-  
-  h2{
-    font-size: 15px;
-  }
-  
-  .profile img{
-  border-radius: 50%;
-  height:100px;
-  width: 100px;
-  margin-top:20px;
-  }
-  
-  .profile02 h1{
-    font-size: 20px;
-  }
-  
-  .profile p1{
-    font-weight: bold;
-  }
-}
-.skill{
-  margin-bottom:20px;
-}
-.sns{
-  margin-top: 10px;
-  margin-bottom:30px;
-}
-</style>
-</p>
-
-<p><br />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta http-equiv="X-UA-Compatible" content="ie=edge"></p>
+    <header>
+        <div>
+            <div class="cover text-white text-center py-5">
+            <h1 class="display-1 pt-4 mb-4">歡迎光臨</h1>
+            <h3 class="display-4 pb-4 mb-4">Welcome To My Web Page</h3>
+          </div>
+      </div>
+    </header>
+    <main>
+        <!--自己紹介-->
+        <section>
+        <div class="container">
+            <div class="row py-5 my-5">
+                <div class="text-center col-sm-8 pb-5 order-sm-2">
+                    <h2>け〜た@栄養士→ITエンジニア</h2>
+                    <p>千葉県出身　アラサー
+                    <br>某スポーツジム栄養士→ITエンジニア（見習い）
+                    <br>まだまだ初心者ですが日々邁進しています。</p>
+                </div>
+                <div class="text-center col-sm-4 order-sm-1">
+                    <img src="img/icon.png" class="w-75">
+                </div>
+            </div>
+        </div>
+        </section>
+        <!--ポートフォリオ-->
+        <section>
+            <div class="bg-light">
+                <h1 class="py-4 text-center">ポートフォリオ</h1>
+                    <div class="container">
+                        <div class="row">
+                            <div class="text-center col-sm-4">
+                            <img src="img/noImage.png" class="w-50">
+                            <p class="py-4">準備中</p>
+                        </div>
+                        <div class="text-center col-sm-4">
+                            <img src="img/noImage.png" class="w-50">
+                            <p class="py-4">準備中</p>
+                        </div>
+                        <div class="text-center col-sm-4">
+                            <img src="img/noImage.png" class="w-50">
+                            <p class="py-4">準備中</p>
+                        </div>
+                        
+                  </div>
+             </div>
+            </div>
+        </section>
+        <!--価格表-->
+        <section class="mb-5">
+            <h1 class="py-3 text-center">価格表</h1>
+                <table class="table table-bordered text-center">
+                    <tr>
+                        <tr><th>項目</th><th>料金</th></tr>
+                        <tbody>
+                          <tr><td>HTML、CSSコーディング</td><td>3,000円〜</td></tr>
+                          <tr><td>LP作成（ペライチ）</td><td>30,000円〜</td></tr>
+                          <tr><td>Wordpress</td><td>50,000円〜</td></tr>
+                        </tbody>
+                    </tr>
+                </table>
+        </section>
+        <!--リンク-->
+        <section class="text-center">
+            <div class="bg-light py-5">
+                <h1 class="text-center mt-5 pb-5">SNS/お問い合わせフォーム</h1>
+                    <a class="btn btn-primary mx-2 mb-5" href="https://twitter.com/lcctraveler97" 
+            role="button"><i class="fab fa-twitter"></i> Twitter</a>
+                    <a class="btn btn-success mx-2 mb-5" href="https://forms.gle/8BVvSo1G2sUtVgX68" 
+            role="button">お問い合わせ</a>
+                    <a class="btn btn-danger mx-2 mb-5" href="https://profile.coconala.com/users/559618" 
+            role="button">ココナラ</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+    </footer>
 </body>
-<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet" /></html>
-<title>lcctraveler97 Profile</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<div class="header">
-<h1>Welcome to My Web Page</h1>
-<img alt="背景画" src="https://drive.google.com/uc?export=view&amp;id=10anij3lewU4gGfZCKO8sLTSjIarnu0dZ" /></div>
-
-<div class="profile"><img alt="アイコン" src="http://drive.google.com/uc?export=view&amp;id=1a5Yb1xixhDj8IfB3UkFmEFu1wRPNH4Nd" /></div>
-
-<div class="profile02">
-<h1>け〜た@栄養士兼プログラマー見習い</h1>
-</div>
-
-<div class="word">
-<h2>プロフィール</h2>
-
-<p>千葉県出身 ギリギリ20代<br />
-現在、某企業で管理栄養士として勤務中<br />
-台湾が好きすぎて年に６回行っちゃう人（笑）<br />
-2020年１月8日よりプログラミングの勉強を開始し日々奮闘中</p>
-</div>
-
-<div class="skill">　
-<h2>スキル</h2>
-
-<p>HTML</p>
-
-<p>CSS(SCSS)</p>
-
-<p>PHP</p>
-
-<p>jQuary</p>
-
-<p>Bootstrap</p>
-</div>
-
-<div class="sns">
-<h2>SNS</h2>
-<a class="btn-twitter" href="https://twitter.com/lcctraveler97">Twitter</a>
-
-<p>ID: lcctraveler97</p>
-</div>
-
-<section class="portfolio">
-<h2>ポートフォリオ</h2>
-
-<p>くりノート コーディング練習</p>
-
-<figure><img alt="模写①" src="https://drive.google.com/uc?export=view&amp;id=106m4I-I8tnV_8TddmxlCEuFWtZT0dyEe" /></figure>
-</section>
-
-<div class="contact">
-<h2>問い合わせ</h2>
-
-<div class="container"><a class="btn-mail" href="https://forms.gle/CWSSrpBG2qJfVNwF6">問い合わせ先</a></div>
-</div>
-<script src="filesystem:chrome-extension://lkfkkhfhhdkiemehlpkgjeojomhpccnh/temporary/script.js">
-</script><script src="filesystem:chrome-extension://lkfkkhfhhdkiemehlpkgjeojomhpccnh/temporary/script.js">
-</script>
+</html>
