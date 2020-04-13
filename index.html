@@ -10,11 +10,14 @@
     <title>Profile</title>
     <style>
       .cover {
-        background: url(top.png);
+        background: url(img/top.png);
         background-size: cover;
       }
     </style>
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
 
 </head>
 <body>
@@ -42,7 +45,7 @@
                     jQuery   PHP   Wordpress</p>
                 </div>
                 <div class="text-center col-sm-4 order-sm-1">
-                    <img src="keita.jpg" class="w-75">
+                    <img src="img/icon.png" class="w-75">
                 </div>
             </div>
         </div>
@@ -54,15 +57,15 @@
                     <div class="container">
                         <div class="row">
                             <div class="text-center col-sm-4">
-                            <img src="kuriNote01.png" class="my-5 w-50">
+                            <a href="kuriNote01.png" data-lightbox="group"><img src="kuriNote01.png" width=300 class="pb-4"></a>
                             <p class="py-4">くりノート</p>
                         </div>
                         <div class="text-center col-sm-4">
-                            <img src="noImage.png" class="w-50">
+                            <img src="img/noImage.png" class="w-50">
                             <p class="py-4">準備中</p>
                         </div>
                         <div class="text-center col-sm-4">
-                            <img src="noImage.png" class="w-50">
+                            <img src="img/noImage.png" class="w-50">
                             <p class="py-4">準備中</p>
                         </div>
                         
@@ -79,7 +82,7 @@
                         <tbody>
                           <tr><td>HTML、CSSコーディング</td><td>3,000円〜</td></tr>
                           <tr><td>LP作成（ペライチ）</td><td>30,000円〜</td></tr>
-                          <tr><td>Wordpressサイト作成</td><td>50,000円〜</td></tr>
+                          <tr><td>Wordpress</td><td>50,000円〜</td></tr>
                         </tbody>
                     </tr>
                 </table>
@@ -90,11 +93,11 @@
                 <h1 class="text-center mt-5 pb-5">SNS/お問い合わせフォーム</h1>
                     <a class="btn btn-primary mx-2 mb-5" href="https://twitter.com/lcctraveler97" 
             role="button"><i class="fab fa-twitter"></i> Twitter</a>
-                    <a class="btn btn-danger mx-2 mb-5" href="https://profile.coconala.com/users/559618" 
-            role="button"><i class="fas fa-shopping-bag"></i> ココナラ</a>
                     <a class="btn btn-success mx-2 mb-5" href="https://forms.gle/8BVvSo1G2sUtVgX68" 
-            role="button"><i class="fas fa-info-circle"></i> お問い合わせ</a>
-           </div>
+            role="button">お問い合わせ</a>
+                    <a class="btn btn-danger mx-2 mb-5" href="https://profile.coconala.com/users/559618" 
+            role="button">ココナラ</a>
+            </div>
         </section>
     </main>
     <footer>
